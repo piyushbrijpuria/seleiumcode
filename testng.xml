@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<groups>
+
+<run>
+     <include name="E2E"></include>
+     <include name="Smoke"></include>
+     <include name="Sanity"></include>
+   
+</run>
+
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="class54_TestNG.DepenedncyDemo"/>
+      <class name="class54_TestNG.FirstTestNGtest"/>
+      <class name="class54_TestNG.FirstTestNGtest2"/>
+      <class name="class54_TestNG.NewTest"/>
+      <class name="class56_TestNGSelenium.LoginTextAssign1"/>
+      <class name="class55_TestNG.TestNG1"/>
+      <class name="class55_TestNG.TestNG2"/>
+      <class name="class56_TestNGSelenium.test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
